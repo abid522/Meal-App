@@ -1,0 +1,55 @@
+#header {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#search-box {
+    width: 50%;
+    margin: 15% auto 5%;
+}
+
+#home-section {
+    background: url(../images/veg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#match-list {
+    width: 60%;
+    margin: 0 auto;
+    max-height: 35vh;
+    overflow-y: scroll;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #search-box {
+        width: 80%;
+        margin: 40% auto 5%;
+    }
+
+    #match-list {
+        width: 100%;
+    }
+}

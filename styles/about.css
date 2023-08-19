@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, rgb(73, 73, 223), rgb(166, 69, 166));
+}
+
+#developer {
+    text-align: center;
+    color: white;
+    padding: 3px;
+    margin-bottom: 5rem;
+}
+
+ul {
+    margin-top: -9px;
+}
+
+li a {
+    color: white;
+}

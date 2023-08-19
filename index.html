@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Meal App</title>
+</head>
+
+<body>
+    <header id="home-section">
+        <div class="dark-overlay">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a class="navbar-brand" href="#">Meals App</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./favourite-meals.html">Favorites</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="home-inner container">
+                <div id="header">
+                    <h1>Meal App</h1>
+                    <p class="lead">Find your favourite meal and instructions to prepare it here.</p>
+                </div>
+                <div id="search-box">
+                    <form action="#" method="get">
+                        <div class="input-group mb-3 input-group-lg">
+                            <input id="meal-search" type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-append">
+                                <button id="search-button" class="btn btn-success" type="submit">Go</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="match-list"></div>
+            </div>
+        </div>
+    </header>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
